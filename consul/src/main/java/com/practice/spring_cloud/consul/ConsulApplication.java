@@ -1,4 +1,4 @@
-package com.practice.spring_cloud.eureka_client;
+package com.practice.spring_cloud.consul;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -6,11 +6,11 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class EurekaClientApplication {
+public class ConsulApplication {
 
     public static void main(String[] args) {
         new SpringApplicationBuilder(
-                EurekaClientApplication.class)
+                ConsulApplication.class)
                 .web(true).run(args);
     }
 }
