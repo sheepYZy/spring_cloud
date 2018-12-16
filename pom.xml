@@ -14,6 +14,7 @@
     <modules>
         <module>eureka_server</module>
         <module>eureka_client</module>
+        <module>consul</module>
         <module>eureka_consumer</module>
         <module>eureka_consumer_ribbon</module>
     </modules>
