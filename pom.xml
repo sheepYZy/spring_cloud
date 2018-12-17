@@ -20,6 +20,9 @@
         <module>eureka_consumer_feign</module>
         <module>config_server_git</module>
         <module>config_client</module>
+        <module>eureka_consumer_ribbon_hystrix</module>
+        <module>hystrix_dashboard</module>
+        <module>api_gateway</module>
     </modules>
 
     <parent>
